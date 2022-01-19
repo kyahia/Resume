@@ -1,0 +1,32 @@
+aside{
+   width: 2rem;
+   background-color: rgb(230 252 255);;
+   overflow: hidden;
+   transition-property: width;
+   transition: .5s ease-in-out;
+}
+
+aside h1, aside h2{
+   text-align: center;
+}
+
+aside img{
+   width: 10rem;
+}
+
+aside.expended{
+   width: 13rem;
+}
+
+.expended img{
+   display: inline;
+}
+
+.shrunk img{
+   display: none;
+}
+
+aside li{
+   list-style-type: none;
+   padding-left: 0;
+}
