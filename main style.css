@@ -1,0 +1,85 @@
+.container{
+   display: flex;
+}
+
+main li{
+   list-style-type: none;
+   padding-left: 2rem;
+}
+
+main{
+   flex: 1;
+}
+
+section{
+   margin-bottom: 1rem;
+}
+
+section h1{
+   background-color: aqua;
+   margin: 0;
+   text-align: center;
+}
+
+section>div{
+   position: relative;
+   cursor: pointer;
+}
+section>div:hover{
+   border: 3px lightcyan outset;
+   background-color: rgb(230, 252, 255);
+}
+
+.time, .location, ul{
+   display: none;
+}
+
+main .collapse h2{
+   width: 17em;
+}
+
+main h2, main h3{
+   display: inline-block;
+   margin: 0;
+}
+
+ul{
+   margin: 0;
+   padding: 0;
+}
+
+.time{
+   color: aqua;
+}
+.company{
+   font-weight: bold;
+}
+.location{
+   font-weight: bold;
+}
+.show{
+   padding: .5rem;
+}
+
+.show span{
+   display: inline;
+}
+.show ul, .show h2, .show h3{
+   display: block;
+}
+
+.show i{
+   display: inline;
+}
+
+h3 img{
+   height: 1.2em;
+}
+
+.project h3{
+   display: none;
+}
+
+.project:hover h3{
+   display: inline-block;
+}
