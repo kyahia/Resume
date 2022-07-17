@@ -1,6 +1,6 @@
 document.querySelectorAll('a').forEach(link => link.setAttribute('target', '_blank'));
 
-const exps = document.querySelectorAll('section>div');
+const exps = document.querySelectorAll('.experience');
 // const projs = document.querySelectorAll('.project');
 
 exps.forEach(exp => {
@@ -18,7 +18,7 @@ function activate(){
    document.getElementById(targetClass).classList.toggle('collapse');
 }
 
-document.getElementById('aside-expend').addEventListener('click', () => {
-   document.querySelector('aside').classList.toggle('expended');
-   document.querySelector('aside').classList.toggle('shrunk');
-});
+// document.getElementById('aside-expend').addEventListener('click', () => {
+//    document.querySelector('aside').classList.toggle('expended');
+//    document.querySelector('aside').classList.toggle('shrunk');
+// });
