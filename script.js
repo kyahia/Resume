@@ -18,7 +18,7 @@ function activate(){
    document.getElementById(targetClass).classList.toggle('collapse');
 }
 
-document.getElementById('aside-expend').addEventListener('click', () => {
-   document.querySelector('aside').classList.toggle('expended');
-   document.querySelector('aside').classList.toggle('shrunk');
-});
+// document.getElementById('aside-expend').addEventListener('click', () => {
+//    document.querySelector('aside').classList.toggle('expended');
+//    document.querySelector('aside').classList.toggle('shrunk');
+// });
