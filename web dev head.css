@@ -9,6 +9,7 @@ body{
 }
 
 /* Header */ 
+
 header{
    color: white;
    background-color: var(--gris);
