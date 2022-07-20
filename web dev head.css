@@ -52,7 +52,6 @@ header .description{
 /* Main */ 
 main {
    display: grid;
-   align-items: center;
    grid-template-columns: 1fr 4fr;
 }
 
@@ -60,6 +59,9 @@ main {
 aside{
    color: white;
    background-color: var(--gris);
+   display: flex;
+   flex-direction: column;
+   align-content: space-between;
 }
 
 .skill-head{
@@ -120,10 +122,10 @@ aside>div:last-child{
    background-color: gold;
    text-align: center;
    color: var(--gris);
+   margin-bottom: 0;
 }
 aside>div:last-child>h1{
-   margin: 1rem auto;
-   text-align: center;
+   margin: 0 auto 1rem auto;
    color: white;
    width: 70%;
    background-color: var(--gris);
@@ -132,6 +134,10 @@ aside>div:last-child>h1{
    border-top-right-radius: 0;
    border-bottom-right-radius: 1em;
    border-bottom-left-radius: 1em;
+}
+
+aside>div{
+   margin: 3rem 0 2rem 0;
 }
 
 /* Sections */

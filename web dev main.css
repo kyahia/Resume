@@ -4,6 +4,10 @@
    --one-fr: calc(100vw / 5)
 }
 
+main h1>span{
+   padding-top: .5rem;
+}
+
 .experience{
    display: flex;
    cursor: pointer;
@@ -18,7 +22,7 @@
    width: 10rem;
    background-color: var(--light-gris) ;
    text-align: center;
-   padding: 0.1rem 0;
+   padding: 0.3rem 0;
    font-size: 1.3rem;
 }
 
@@ -28,10 +32,10 @@
 
 .experience .details h2:first-child {
    width: 18em;
-   padding-left: 1em;
+   padding: 0.3rem 1em 0.3rem 0;
 }
 
-.experience h2{
+.experience h2, .experience h3{
    margin: .1rem 0;
    font-size: 1.3rem;
 }
@@ -41,6 +45,9 @@
 }
 
 .collapse p{
+   display: none;
+}
+.collapse li{
    display: none;
 }
 
@@ -56,4 +63,30 @@
 .experience.show{
    border: 4px inset white;
    background-color: white;
+}
+
+h3 img{
+   display: none;
+}
+
+.project.show .time{
+   display: none;
+}
+
+.show h3, .show h2{
+   display: inline-block;
+}
+
+.show h3 img{
+   height: 1.2em;
+   display: inline;
+}
+
+.project:hover h3 img{
+   height: 1.2em;
+   display: inline;
+}
+
+.show p, .show li{
+   padding: 0 2em;
 }

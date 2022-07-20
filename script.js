@@ -1,6 +1,6 @@
 document.querySelectorAll('a').forEach(link => link.setAttribute('target', '_blank'));
 
-const exps = document.querySelectorAll('.experience');
+const exps = document.querySelectorAll('section>div');
 // const projs = document.querySelectorAll('.project');
 
 exps.forEach(exp => {
