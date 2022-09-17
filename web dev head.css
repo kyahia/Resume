@@ -82,7 +82,7 @@ aside{
 }
 
 .skill{
-   margin: 0 1rem;
+   margin: 1rem;
 }
 
 .skill h2 span{
@@ -104,8 +104,10 @@ aside{
 .skill h2{
    margin: 0;
    font-size: 1.2rem;
+   /*
    display: flex;
    align-items: center;
+   */
 }
 
 progress{
@@ -139,6 +141,10 @@ aside>div:last-child>h1{
 
 aside>div{
    margin: 3rem 0 2rem 0;
+}
+
+aside a{
+   text-decoration: none;
 }
 
 /* Sections */
